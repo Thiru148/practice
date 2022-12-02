@@ -1,0 +1,67 @@
+.body{
+    margin: 0%;
+    font-family: sans-serif;
+}
+.header {
+    background-color: green;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 15px;
+    font-style: oblique;
+}
+.input {
+    width: 100%;
+    color: tomato;
+    border-radius: 1px solid white;
+    background-color: whitesmoke;
+    border: none;
+    height: 50px;
+    padding: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.projectfrm {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+.btn {
+    margin-top: 20px;
+    color: rgb(255, 0, 106);
+    background-color: rgb(0, 255, 115);
+    font-size: 1.5em;
+    outline: 2px solid black;
+    padding: 10px 20px;
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    border-radius: 1px solid red;
+}
+.deletebtn {
+    width: 100px;
+    height: 50px;
+    color: orangered;
+    outline: 2px solid black;
+    padding: 5px 5px;
+    overflow: hidden;
+    height: 30px;
+    width: 50px;
+    border-radius: 1px solid red;
+}
+.projectitem {
+    margin: auto;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+}
+.projectname {
+    font-size: 1em;
+}
+.projectlist {
+    background-color: olivedrab;
+    color: rgb(5, 65, 0);
+}
+

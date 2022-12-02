@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Header from "./Components/Header";
+import Form from "./Components/Form";
+import {useState} from "react"
+import ProjectList from "./Components/ProjectList";
 function App() {
+const [project, setProject] = useState("")
+const [projectList, setProjectList] = useState([])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Header/>
+     <Form
+     project = {project}
+     setProject = {setProject}
+     projectList = {projectList}
+     setProjectList = {setProjectList}
+     />
+     <ProjectList
+      projectList = {projectList}
+      setProjectList = {setProjectList}
+     />
     </div>
   );
 }
